@@ -1,0 +1,26 @@
+.project-info
+{
+    position: relative;
+    height: 300px;
+    left: 15.8em;
+}
+
+.project-info i
+{
+    float: right;
+    position: relative;
+    right: 1.2em;
+}
+
+.project-info p
+{
+    width: 600px;
+}
+
+.project-info button
+{
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 4px;
+}

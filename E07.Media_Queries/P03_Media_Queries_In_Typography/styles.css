@@ -1,0 +1,178 @@
+body
+{
+    background-color: rgb(238, 238, 238);
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside";
+}
+
+header
+{
+    grid-area: header;
+}
+main
+{
+    grid-area: main;
+}
+aside
+{
+    grid-area: aside;
+    position: absolute;
+    height: 200px;
+}
+
+a
+{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+img
+{
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote, h1, h3
+{
+    font-family: Georgia, serif;
+}
+
+h1, h3 
+{
+    font-size: 1em/1.2;
+}
+
+body > *
+{
+    margin-left: 5em;
+}
+
+header > p
+{
+    font-weight: 500;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+}
+
+#title
+{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+body > header
+{
+    height: 75px;
+    width: 1100px;
+}
+
+header > nav ul > li
+{
+    display: inline;
+    position: relative;
+    padding-right: 15px;
+    float:right;
+    bottom: 60px;
+}
+
+article 
+{
+    width: 825px;
+}
+
+#image-one
+{
+    float:right;
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 20px;
+    margin: 1em;
+}
+
+blockquote
+{
+    width: 280px;
+    height: 100px;
+    float: right;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.besides-quote
+{
+    width: 480px;
+    border-right: 3px solid #dbdbdb;
+}
+
+blockquote > p
+{
+    text-align: end;
+    margin-top: 10px;
+}
+
+#image-two
+{
+    float: left;
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 20px;
+    margin: 0 1em 1em 0;
+}
+
+aside section
+{
+    position: relative;
+    right: 0;
+    top: 90px;
+    left: 900px;
+}
+
+@media (max-width:500) 
+{
+    html
+    {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:501) and (max-width:600)
+{
+    html
+    {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:601) and (max-width:800)
+{
+    html
+    {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:801) and (max-width:1300)
+{
+    html
+    {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1301) and (max-width:1800)
+{
+    html
+    {
+        font-size: 21px;
+    }
+}
+
+@media (min-width:1801)
+{
+    html
+    {
+        font-size: 23px;
+    }
+}

@@ -1,0 +1,39 @@
+.newsletter
+{
+    position: relative;
+    background-color: #68347B;
+    width: 1430px;
+    height: 160px;
+    right: 1em;
+}
+
+.newsletter h1
+{
+    text-align: center;
+    padding-top: 1em;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.newsletter form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5em;
+}
+
+form > input
+{
+    margin-right: 0.5em;
+    width: 240px;
+}
+
+.sign-up
+{
+    position: relative;
+    top: 20px;
+    left: 28em;
+    width: 85px;
+    border-bottom: 4px solid black;
+}

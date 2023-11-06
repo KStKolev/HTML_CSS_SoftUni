@@ -1,0 +1,63 @@
+.spider-info p
+{
+    width: 350px;
+    height: 150px;
+}
+
+.end-info
+{
+    display: flex;
+    margin-left: 8em;
+}
+
+.end-info div
+{
+    margin-right: 6em;
+}
+
+.contact-info
+{
+    position: relative;
+    right: 15em;
+}
+
+.contact-info div p
+{
+    margin: 0;
+}
+
+.info-container
+{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sitemap-info a
+{
+    text-decoration: none;
+    padding-right: 10em;
+    color: black;
+}
+
+.envelope
+{
+    width: 400px;
+}
+
+.move-block
+{
+    padding-left:25px;
+}
+
+.block-left
+{
+    position:relative;
+    right: 18px;
+}
+
+.block-left-
+{
+    position:relative;
+    right: 23px;
+}

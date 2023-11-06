@@ -1,0 +1,80 @@
+.professional-list
+{
+    margin-bottom: 7em;
+}
+
+.professionals
+{
+    margin: 4em auto auto 10em;
+}
+
+.professional-list h1
+{
+    position: relative;
+    padding: 1.5em 1.5em;
+    text-align: center;
+    left: 7em;
+}
+
+#bottom-border
+{
+    position: relative;
+    top: 20px;
+    left: 19em;
+    width: 85px;
+    border-bottom: 4px solid black;
+}
+
+.professionals ul
+{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.professionals ul li p
+{
+    width: 300px;
+    text-align: center;
+}
+
+.professionals ul li
+{
+    position: relative;
+    padding: 1em 1em 1em 1.5em;
+    right: 1em;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.centered-image
+{
+    position: relative;
+    left: 6em;
+}
+
+h6
+{
+    font-size:medium;
+    text-align: center;
+    padding: 0;
+}
+
+.spacing-paragraph
+{
+    position: relative;
+    bottom: 1.8em;
+}
+
+.list-bottom-border
+{
+    position: relative;
+    width: 1420px;
+    border-bottom: 2px solid #DFDFDF;
+    right: 0.5em;
+    box-shadow: 2px 1px 5px #DFDFDF;
+}

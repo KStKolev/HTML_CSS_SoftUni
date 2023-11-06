@@ -1,0 +1,83 @@
+.team
+{
+    width: 1080px;
+}
+
+.team h1, #little-border, .about-staff, .small-header, .under-heading, .large-BIO, .medium-BIO
+{
+    position: relative;
+}
+
+.team h1
+{
+    left: 57%;
+    top: 83%;
+}
+
+#little-border
+{
+    top: 20px;
+    left: 1em;
+    width: 85px;
+    border-bottom: 4px solid black;
+}
+
+.roster
+{
+    width: 1080px;
+    display: flex;
+    padding: 5em;
+    margin-left: 10em;
+}
+
+.roster ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.roster ul li
+{
+    margin: auto auto 1em 0.5em;
+    padding-right: 4em;
+}
+
+img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px;
+}
+
+.about-staff
+{
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    width: 250px;
+    right: 6em;
+    bottom: 1.5em;
+}
+
+.small-header
+{
+    left: 1.8em;
+}
+
+.under-heading 
+{
+    left: 2.5em;
+}
+
+.large-BIO, .under-heading, .medium-BIO 
+{
+    font-size: 14px;
+    bottom: 1.2em;
+}
+
+.medium-BIO
+{
+    left: 1em;
+}
