@@ -1,0 +1,23 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+body, ul, li 
+{
+    display: flex;
+}
+
+ul
+{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li 
+{
+    margin: auto 1em 1em auto;
+    border: 3px solid black;
+    background-color: azure;
+    padding: 2em;
+}
